@@ -9,10 +9,13 @@ const app = () => {
             <div className="w-screen h-screen bg-neutral-800 flex flex-row">
                 <div className="flex flex-col bg-slate-750 basis-2/6 p-2 overflow-y-auto">
                     <img src={myImage} alt="Image" className="rounded-full w-24 h-24 mx-auto mt-10 mb-10" />
-                    <div className="text-md font-medium"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam beatae dolorem sequi sed. Odio quod in quasi, 
+                    <div className="text-md font-medium text-center"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam beatae dolorem sequi sed. Odio quod in quasi, 
                         eaque corporis excepturi libero vero tenetur perspiciatis magni, quo tempore aspernatur. Eveniet, praesentium.
                     </div>
-                    <a href="https://github.com/Splicid"> <img src={githubLogo}  alt="Github" className="object-scale-down h-28 w-56 mx-auto" /></a>
+                    <div className="flex justify-center h-screen">
+                        <a href="https://github.com/Splicid"> <img src={githubLogo}  alt="Github" className="object-scale-down h-28 w-36 mt-3 bottom-0" /></a>
+                    </div>
+                    
                 </div>
                 <div className="flex flex-col basis-5/6 bg-slate-900 relative overflow-x-auto">
                     <div className="max-w-screen h-48 m-8"> Test</div>
